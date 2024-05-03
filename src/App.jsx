@@ -3,7 +3,7 @@
 
   // 1) Classbase component
 
-  // 2) functional component
+  // 2) functional  component
 
 import Home from './components/Home';
 import NavbarComp from './components/NavbarComp';
