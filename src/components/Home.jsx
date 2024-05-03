@@ -12,7 +12,7 @@ function Home(){
     return(
         <>
             <hr />
-            <h1 className="One">Home component</h1>
+            <h1 className="One">Home Page</h1>
             <InfoCard name="Jhon" designation="Software Developer" colour="red"/>
             <InfoCard name="Krishna" designation="Tester" colour="green"/>
             <InfoCard name="Pritam" designation="UI/UX Designer" colour="blue"/>
