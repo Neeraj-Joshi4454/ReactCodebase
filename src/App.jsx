@@ -5,7 +5,8 @@
 
   // 2) functional  component
 
-import Home from './components/Home';
+  // import Home from './components/Home';
+import CounterComp from './components/Counter';
 import NavbarComp from './components/NavbarComp';
 function App(){
 
@@ -50,7 +51,8 @@ function App(){
   return(
     <>
       <NavbarComp/>
-      <Home/>
+      {/* <Home/> */}
+      <CounterComp/>
     </>
   );
 
