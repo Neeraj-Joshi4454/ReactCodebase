@@ -19,7 +19,7 @@ const MoviesApp = () => {
                                     <img src={val.cover} className="w-[100%] h-[350px] rounded-t-lg m-6 p-4 gap-4" alt="val.title" />
                                     <div className="text-center mt-0">
                                         <h1>{val.title}</h1>
-                                        <p>Rating - {val.rating} /5</p>
+                                        <p>Rating  - {val.rating} /5</p>
                                     </div>
                                 </div>
 
