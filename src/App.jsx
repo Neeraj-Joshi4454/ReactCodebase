@@ -1,12 +1,20 @@
+import API from './components/API';
+import MoviesApp from './components/MoviesApp';
 
-import Movies from './components/Movies';
-import State from './components/State';
+
+
 
 function App() {
   return (
     <>
-      <Movies />
+      
+      
+     <API/>
+     <MoviesApp/>
+
+
     </>
+
   );
 
 }
