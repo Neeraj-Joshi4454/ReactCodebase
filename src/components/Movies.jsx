@@ -11,8 +11,15 @@ const Movies = () => {
             <div className="borderw-[100vw] flex justify-center items-center">
                 {
                     MoviesData.map((val, index) => {
+                        let i = parseInt(val.rating)
+                        var star = ""
+                        while(i>0){
+                            star+="⭐"
+                            i--;
+                        }
+                        console.log(star)
                         return(
-                            <Card val={val}/>
+                            <Card val={val} star={star}/>
                         );
                     })
                 }
