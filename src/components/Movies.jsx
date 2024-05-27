@@ -4,7 +4,7 @@ import Card from "./Card";
 
 const Movies = () => {
 
-    console.log(MoviesData)
+    //console.log(MoviesData)
     return(
         <>  
             <h1 className="text-center text-4xl text-red-600 my-5">Top 3 Movies for Watch</h1>

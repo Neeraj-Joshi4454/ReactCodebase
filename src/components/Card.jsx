@@ -1,6 +1,13 @@
 import React from 'react'
+import { useState } from 'react';
 
-function Card({val, star}) {
+function Card({val}) {
+    const star =[];
+        for(let i = 0;i<val.rating;i++){
+            star.push("*");
+        }
+      console.log(star)
+    
     return (
         <div className="border w-72 m-5 h-[500px] rounded-lg shadow-md">
             <img src={val.cover} className="w-[100%] h-[350px] rounded-t-lg" alt={val.title} />
